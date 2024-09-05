@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculator{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(62, 62, 62);
+    min-height: 500px;
+}
+.calculator input{
+    margin: 20px;
+    font-size: 1.5rem;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.todo_list{
+    width: 100%;
+    font-size: 1.5rem;
+}
+.todo{
+    padding: 5px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2{
+    display: flex;
+    gap:10px;
+}
+.section1{
+    align-items: center;
+    display: flex;
+}
